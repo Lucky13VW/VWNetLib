@@ -1,4 +1,4 @@
-# This project is common network library based on epoll and thread pool in C++11.
+# This project is a common network library based on epoll and thread pool in C++11.
 # It faciliates fast building server/client application with business logic.
 
 g++ -std=c++11 -o test.out thread_pool.cpp -lpthread
