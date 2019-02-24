@@ -1,0 +1,37 @@
+{
+  "Port": 8000,
+  "Threads": 6,
+  "BufSize": 8192,
+  "KeepAlive":
+  {
+      "Enable":1,
+      "Idle": 20,
+      "Interval":2,
+      "Count": 2
+  },
+  "Accounts":
+   [
+      {
+      "Name": "broadcast1",
+      "Type": 1,
+      "Code": 100,
+      "Pwd":  "pwd100",
+      "PbFile": "jnl/bse_playback.jnl",
+      "JnlFile":"jnl/bse_data.jnl",
+      "JnlRate": 4096
+      },
+      {
+      "Name": "query1",
+      "Type": 2,
+      "Code": 200,
+      "Pwd":  "pwd200",
+      "PbFile": "jnl/bse_query.jnl",
+      "Query":
+             [
+               {"Msg":2100, "QFile":"jnl/2100.jnl"},
+               {"Msg":2200, "QFile":"jnl/2200.jnl"}
+             ]
+      }
+   ],
+   "Comments": "PbFile: for one-click injection,JnlFile:"  
+}

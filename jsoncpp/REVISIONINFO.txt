@@ -1,0 +1,12 @@
+<-- svnbot -->  info .  
+Path: .
+URL: https://sami.cdt.int.thomsonreuters.com/svn/collections_datafeeddirect/ExternalPackages/jsoncpp/0.6.0-dev/x64/gcc48
+Repository Root: https://sami.cdt.int.thomsonreuters.com/svn/collections_datafeeddirect
+Repository UUID: fa53f34d-ad5a-4b48-b8fa-8a279a745d36
+Revision: 166740
+Node Kind: directory
+Schedule: normal
+Last Changed Author: Jason.Rickman
+Last Changed Rev: 146711
+Last Changed Date: 2014-08-15 15:43:57 +0000 (Fri, 15 Aug 2014)
+
