@@ -1,6 +1,6 @@
-## It's a common network library based on epoll and thread pool in C++11.     
-*It faciliates fast building server/client application with business logic.*
---------------------------------------------------    
+## It's a common network library based on epoll and thread pool in C++11.           
+*It faciliates fast building server/client application with business logic.*    
+  
 **Setup & build**
 1. **create bulid folders**   
 $ `mkdir debug & make release`
